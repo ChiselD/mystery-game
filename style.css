@@ -1,0 +1,64 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+section {
+  border: 3px solid green;
+  background-color: rgb(180,210,210);
+  width: 50%;
+  height: 100%;
+  margin: 4em auto;
+  padding: 8em;
+}
+
+.warning {
+  font-family: arial sans-serif;
+  font-size: 1.8em;
+  color: whitesmoke;
+  margin-left: 2em;
+}
+
+#toFade {
+  -webkit-transition: opacity 2s;
+  opacity: 1;
+}
+
+#toFade.faded {
+  opacity: 0;
+}
+
+.board {
+  border: 2px solid green;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.column {
+  float: left;
+}
+
+.box {
+  width: 3em;
+  height: 3em;
+  border: 1px solid black;
+}
+
+.unclicked {
+  background-color: whitesmoke;
+}
+
+.clicked {
+  background-color: blue;
+}
+
+.success {
+  width: 142px;
+  height: 144px;
+  background-color: purple;
+  color: whitesmoke;
+  padding: 1em;
+  font-family: arial sans-serif;
+  font-size: 1.8em;
+}
